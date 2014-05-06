@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="description" content="MK Aviation conducts ground subject coaching classes for CPL and CPL conversion.">
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="initial-scale=1" />
+    <title>MK Aviator</title>
+
+    <link rel="stylesheet" href="assets/css/semantic.min.css">
+    <link rel="stylesheet" href="assets/css/icon.min.css">
+    <link rel="stylesheet" href="assets/css/utility.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="assets/css/home.css">
+    <link rel="stylesheet" media="all" href="assets/css/grid-1378.css">
+    <link rel="stylesheet" media="all and (min-width: 1248px) and (max-width: 1407px)" href="assets/css/grid-1218.css">
+    <link rel="stylesheet" media="all and (min-width: 1002px) and (max-width: 1247px)" href="assets/css/grid-978.css">
+    <link rel="stylesheet" media="all and (min-width: 768px) and (max-width: 1001px)" href="assets/css/grid-748.css">
+    <link rel="stylesheet" media="all and (min-width: 0px) and (max-width: 767px)" href="assets/css/grid-300.css">
+    <!--[if lte IE 8]>
+
+        <script type="text/javascript" src="../resources/js/jquery.media-query.min.js"></script>
+
+        <script type="text/javascript">
+            $(function() {
+                $.mediaquery([
+                    {minWidth: 1248, maxWidth: 1407, href: 'grid-1218.css'},
+                    {minWidth: 1002, maxWidth: 1247, href: 'grid-978.css'},
+                    {minWidth: 768, maxWidth: 1001, href: 'grid-748.css'},
+                    {minWidth: 0, maxWidth: 767, href: 'grid-300.css'}
+                ]);
+            });
+        </script>
+        <![endif]-->
+    <script src="assets/js/jquery-1.11.0.min.js"></script>
+    <script src="assets/js/underscore-min.js"></script>
+    <script src="assets/js/backbone-min.js"></script>
+    <script src="app/mka.js"></script>
+    <script src="app/views/AbstractView.js"></script>
+    <script src="app/views/HeaderView.js"></script>
+    <script src="app/views/MenuView.js"></script>
+    <script src="app/views/HomeView.js"></script>
+    <script src="app/router.js"></script>
+    <script>
+        $(document).ready(function () {
+            MKA.start(); 
+        });
+    </script>
+</head>
+
+<body id="body">
+    <section id="backgroundsHolder">
+        <header id="headerBackground"></header>
+        <section id="descriptionBackground">
+        </section>
+    </section>
+
+    <section id="contentsHolder">
+        <section id="headerHolder">
+        </section>
+        <section id="menuHolder">
+        </section>
+        <section id="descriptionHolder">
+        </section>
+    </section>
+</body>
+<script id="header-tmpl" type="text/template">
+    <div class = "logo floatLeft">
+    </div>
+    <header class="floatRight">
+        <h1 class="header">MK Aviation</h1 >
+        <h4 class = "header" > Dream high . . . </h4>
+        <h4 class="header">Fly higher . . .</h4 >
+    </header>
+</script>
+<script id="menu-tmpl" type="text/template">
+    <div class="ui teal inverted small menu">
+        <a class="item active">
+            <i class="home icon"></i>
+        </a>
+        <a class="item">
+            <i class="book icon"></i> Classes
+        </a>
+        <a class="item">
+             Salient Features
+          </a>
+        <a class="item">
+            Testimonials
+          </a>
+        <a class="item">
+             Track Record
+          </a>
+        <a class="item">
+            <i class="phone icon"></i> Contact Us
+        </a>
+    </div>
+</script>
+<script id="home-tmpl" type="text/template">
+<div class="home">
+Welcome to our web site, and thank you for taking the time to learn more about our <b>CPL</b> (Commercial Pilot License) Programme as per <b>DGCA</b> requirements. We conduct ground subject coaching classes for <b>CPL</b> and <b>CPL</b> conversion. Our specialisation is in <b>CPL NAVIGATION</b>, <b>TECHNICAL</b> and conversion coaching classes with exceptionally high success rate in DGCA exams. We at <b>M. K. AVIATION, MUMBAI, India</b>, are dedicated to your success and wish you happy landings.
+</div>
+</script>
+</html>

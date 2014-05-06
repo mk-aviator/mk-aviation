@@ -1,0 +1,10 @@
+#menuHolder .menu {
+    margin: 0 .5em 0 0;
+}
+#menuHolder,
+#menuHolder header {
+    color: #FFF;
+}
+#menuHolder .ui.inverted.teal.menu {
+    background-color: #1F4E79;
+}
