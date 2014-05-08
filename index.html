@@ -6,7 +6,7 @@
 
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="initial-scale=1" />
-    <title>MK Aviator</title>
+    <title>MK Aviation</title>
 
     <link rel="stylesheet" href="assets/css/semantic.min.css">
     <link rel="stylesheet" href="assets/css/icon.min.css">
@@ -43,6 +43,7 @@
     <script src="app/views/HeaderView.js"></script>
     <script src="app/views/MenuView.js"></script>
     <script src="app/views/HomeView.js"></script>
+    <script src="app/views/ClassesView.js"></script>
     <script src="app/router.js"></script>
     <script>
         $(document).ready(function () {
@@ -56,6 +57,9 @@
         <header id="headerBackground"></header>
         <section id="descriptionBackground">
         </section>
+        <section id="footerBackground">
+            &copy; Copyright 2014 MK Aviation. All rights reserved.
+        </section>
     </section>
 
     <section id="contentsHolder">
@@ -64,6 +68,8 @@
         <section id="menuHolder">
         </section>
         <section id="descriptionHolder">
+        </section>
+        <section id="footerHolder">
         </section>
     </section>
 </body>
@@ -77,11 +83,11 @@
     </header>
 </script>
 <script id="menu-tmpl" type="text/template">
-    <div class="ui teal inverted small menu">
-        <a class="item active">
+    <div id="menu" class="ui teal inverted small menu">
+        <a class="item active" id="homeOption">
             <i class="home icon"></i>
         </a>
-        <a class="item">
+        <a class="item" id="classesOption">
             <i class="book icon"></i> Classes
         </a>
         <a class="item">
@@ -101,6 +107,18 @@
 <script id="home-tmpl" type="text/template">
 <div class="home">
 Welcome to our web site, and thank you for taking the time to learn more about our <b>CPL</b> (Commercial Pilot License) Programme as per <b>DGCA</b> requirements. We conduct ground subject coaching classes for <b>CPL</b> and <b>CPL</b> conversion. Our specialisation is in <b>CPL NAVIGATION</b>, <b>TECHNICAL</b> and conversion coaching classes with exceptionally high success rate in DGCA exams. We at <b>M. K. AVIATION, MUMBAI, India</b>, are dedicated to your success and wish you happy landings.
+</div>
+</script>
+<script id="classes-tmpl" type="text/template">
+<div class="classes">
+Our student's pass rate in the DGCA CPL EXAMS is one of the best in comparison to major aviation institutions. As a matter of fact, as of now, we are second to none. With small classes, we are able to give personal attention to students. Our exams focused ground classes have content imparting not only relevant information for the exams with practice questions, but also providing solid knowledge foundation for both the theory and the numericals. By the end of the course, students will have crucial knowledge of navigation, instruments and radioaids on their fingertips. We prepare students for the following DGCA CPL exams subjects:<br>
+<ul>
+<li>COMPOSITE </li>
+<li>AIR NAVIGATION</li>
+<li>TECHNICAL GENERAL</li>
+<li>RADIO TELEPHONY (RTR)</li>
+</ul>
+DGCA exams have very low pass rates and are not easy to clear if one tries to take it without exams focused ground coaching. In the US, Australia, or other CATEGORY I countries, after ground training, students can easily prepare for the exams on their own using books like Ground Studies for Pilots, FAA Test preps, and clear the respective country's licensing authorities' exams. Ground studies and exams there are focused on how to be a safe pilot and to understand the logics behind aerodynamics, instruments, navigation and regulations to aid in practical flying. In India, the exams are more focused on the theory aspect, and the numericals . We want to ensure that you pass the DGCA exams in your first attempt.
 </div>
 </script>
 </html>

@@ -5,7 +5,8 @@
         this.views = {
             header: new this.viewClasses.HeaderView(),
             menu: new this.viewClasses.MenuView(),
-            home: new this.viewClasses.HomeView()
+            home: new this.viewClasses.HomeView(),
+            classes: new this.viewClasses.ClassesView()
         };
         this.router = new this.routerClass.MKARouter();
         Backbone.history.start();

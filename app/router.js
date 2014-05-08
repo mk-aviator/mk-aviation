@@ -10,7 +10,7 @@
                 MKA.views.home.render();
             },
             renderClasses: function () {
-                console.log('classes');
+                MKA.views.classes.render();
             }
         })
     };
