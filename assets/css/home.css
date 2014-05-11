@@ -1,13 +1,20 @@
-#descriptionHolder .home {
+#backgroundsHolder #descriptionBackground.home{
+    height: 20em;
+}
+#descriptionHolder.home {
     margin-top: 1em;
     padding: 2em;
+    height: 2em;
     line-height: 2em;
     text-align: justify;
 }
-
-#descriptionHolder .classes {
+#backgroundsHolder #descriptionBackground.classes{
+    height: 43em;
+}
+#descriptionHolder.classes {
     margin-top: 1em;
     padding: 2em;
+    height: 29em;
     line-height: 1.5em;
     text-align: justify;
 }

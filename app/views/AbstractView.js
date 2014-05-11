@@ -9,6 +9,8 @@
                 }
             },
             render: function (data) {
+                $('#descriptionBackground').removeClass().addClass(this.name);
+                this.$el.removeClass().addClass(this.name);
                 this.template(data);
                 if (this.renderView) {
                     this.renderView();
