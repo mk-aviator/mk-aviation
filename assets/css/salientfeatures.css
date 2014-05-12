@@ -1,0 +1,7 @@
+#descriptionHolder.salientfeatures ul li {
+    list-style: none;
+}
+#descriptionHolder.salientfeatures ul{
+    margin: 0;
+    padding: 0;
+}

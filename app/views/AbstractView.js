@@ -11,7 +11,7 @@
             render: function (data) {
                 $('#descriptionBackground').removeClass().addClass(this.name);
                 this.$el.removeClass().addClass(this.name);
-                this.template(data);
+                this.template(data || this.renderData);
                 if (this.renderView) {
                     this.renderView();
                 }

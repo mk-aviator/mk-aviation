@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="assets/css/header.css">
     <link rel="stylesheet" href="assets/css/menu.css">
     <link rel="stylesheet" href="assets/css/home.css">
+    <link rel="stylesheet" href="assets/css/salientfeatures.css">
     <link rel="stylesheet" media="all" href="assets/css/grid-1378.css">
     <link rel="stylesheet" media="all and (min-width: 1248px) and (max-width: 1407px)" href="assets/css/grid-1218.css">
     <link rel="stylesheet" media="all and (min-width: 1002px) and (max-width: 1247px)" href="assets/css/grid-978.css">
@@ -44,6 +45,7 @@
     <script src="app/views/MenuView.js"></script>
     <script src="app/views/HomeView.js"></script>
     <script src="app/views/ClassesView.js"></script>
+    <script src="app/views/SalientFeaturesView.js"></script>
     <script src="app/router.js"></script>
     <script>
         $(document).ready(function () {
@@ -90,7 +92,7 @@
         <a class="item" id="classesOption">
             <i class="book icon"></i> Classes
         </a>
-        <a class="item">
+        <a class="item" id="salientfeaturesOption">
              Salient Features
           </a>
         <a class="item">
@@ -121,6 +123,21 @@ DGCA exams have very low pass rates and are not easy to clear if one tries to ta
  
 The training duration will be approximately 1.5 - 2 months of intensive coaching from the class start date, up till the exam.
 </p>
-
+</script>
+<script id="salientfeatures-tmpl" type="text/template">
+<ul>
+<%
+    _.each(features, function (feature) {
+%>
+    <li>
+        <i class="plane icon"></i>
+        <span>
+            <%=feature%>
+        </span>
+    </li>
+<%
+    });
+%>
+</ul>
 </script>
 </html>

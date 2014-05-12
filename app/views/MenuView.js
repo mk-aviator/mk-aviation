@@ -22,6 +22,13 @@
                 MKA.router.navigate('classes', {
                     trigger: true
                 });
+            },
+            'click #salientfeaturesOption' : function (event) {
+                this.$('#menu .item.active').removeClass('active');
+                $(event.currentTarget).addClass('active');
+                MKA.router.navigate('salientfeatures', {
+                    trigger: true
+                });
             }
         }
     });

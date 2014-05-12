@@ -18,3 +18,13 @@
     line-height: 1.5em;
     text-align: justify;
 }
+#backgroundsHolder #descriptionBackground.salientfeatures{
+    height: 35em;
+}
+#descriptionHolder.salientfeatures {
+    margin-top: 1em;
+    padding: 2em;
+    height: 20em;
+    line-height: 2em;
+    text-align: justify;
+}
