@@ -19,3 +19,6 @@ body {
     opacity: 0.5;
     margin-top: 1em;
 }
+#descriptionHolder ul li {
+    list-style: none;
+}

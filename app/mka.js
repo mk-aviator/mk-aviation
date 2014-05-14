@@ -7,7 +7,8 @@
             menu: new this.viewClasses.MenuView(),
             home: new this.viewClasses.HomeView(),
             classes: new this.viewClasses.ClassesView(),
-            salientfeatures: new this.viewClasses.SalientFeaturesView()
+            salientfeatures: new this.viewClasses.SalientFeaturesView(),
+            testimonials: new this.viewClasses.TestimonialsView()
         };
         this.router = new this.routerClass.MKARouter();
         Backbone.history.start();

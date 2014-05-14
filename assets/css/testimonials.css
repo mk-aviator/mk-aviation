@@ -1,0 +1,14 @@
+#descriptionHolder.testimonials .ui.items>.item {
+    min-height: 0;
+    cursor: auto;
+    border-bottom-color: #5C6166!important;
+    margin: 1em .3em 0 .6em;
+}
+#descriptionHolder.testimonials .ui.items .item>.content>.name {
+    font-size: 1em;
+}
+#descriptionHolder.testimonials .ui.items .item>.content>.description {
+    font-size: .7em;
+    color: #000000;
+    line-height: 1.5em;
+}

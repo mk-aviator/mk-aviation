@@ -29,6 +29,13 @@
                 MKA.router.navigate('salientfeatures', {
                     trigger: true
                 });
+            },
+            'click #testimonialsOption' : function (event) {
+                this.$('#menu .item.active').removeClass('active');
+                $(event.currentTarget).addClass('active');
+                MKA.router.navigate('testimonials', {
+                    trigger: true
+                });
             }
         }
     });

@@ -1,4 +1,4 @@
-#backgroundsHolder #descriptionBackground.home{
+#backgroundsHolder #descriptionBackground.home {
     height: 20em;
 }
 #descriptionHolder.home {
@@ -8,8 +8,8 @@
     line-height: 2em;
     text-align: justify;
 }
-#backgroundsHolder #descriptionBackground.classes{
-    height: 43em;
+#backgroundsHolder #descriptionBackground.classes {
+    height: 44em;
 }
 #descriptionHolder.classes {
     margin-top: 1em;
@@ -18,8 +18,8 @@
     line-height: 1.5em;
     text-align: justify;
 }
-#backgroundsHolder #descriptionBackground.salientfeatures{
-    height: 35em;
+#backgroundsHolder #descriptionBackground.salientfeatures {
+    height: 38em;
 }
 #descriptionHolder.salientfeatures {
     margin-top: 1em;
@@ -27,4 +27,16 @@
     height: 20em;
     line-height: 2em;
     text-align: justify;
+}
+#backgroundsHolder #descriptionBackground.testimonials {
+    height: 35em;
+}
+#descriptionHolder.testimonials {
+    margin-top: 1.5em;
+    padding: 0em 1em;
+    height: 33em;
+    line-height: 2em;
+    text-align: justify;
+    overflow-y: auto;
+    overflow-x: hidden;
 }

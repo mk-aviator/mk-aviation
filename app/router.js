@@ -5,7 +5,8 @@
             routes: {
                 'home': 'renderHome',
                 'classes': 'renderClasses',
-                'salientfeatures': 'renderSalientFeatures'
+                'salientfeatures': 'renderSalientFeatures',
+                'testimonials': 'renderTestimonials'
             },
             renderHome: function () {
                 MKA.views.home.render();
@@ -15,6 +16,9 @@
             },
             renderSalientFeatures: function () {
                 MKA.views.salientfeatures.render();
+            },
+            renderTestimonials: function () {
+                MKA.views.testimonials.render();
             }
         })
     };
