@@ -8,12 +8,11 @@
             home: new this.viewClasses.HomeView(),
             classes: new this.viewClasses.ClassesView(),
             salientfeatures: new this.viewClasses.SalientFeaturesView(),
-            testimonials: new this.viewClasses.TestimonialsView()
+            testimonials: new this.viewClasses.TestimonialsView(),
+            trackrecord: new this.viewClasses.TrackRecordView(),
+            aboutus: new this.viewClasses.AboutUsView()
         };
         this.router = new this.routerClass.MKARouter();
         Backbone.history.start();
-        this.router.navigate('home', {
-            trigger: true
-        });
     };
 }(window.MKA, window.jQuery));

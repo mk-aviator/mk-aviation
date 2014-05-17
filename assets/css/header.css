@@ -10,6 +10,7 @@
 #headerHolder .logo {
     background-image: url('../images/mk_logo.png');
     background-repeat: no-repeat;
+    cursor: pointer;
     width: 9em;
     height: 5em;
     padding: 0;
@@ -20,18 +21,18 @@
 }
 #headerHolder header {
     width: 30em;
-    margin-top: 1.5em;
+    margin-top: 0.5em;
 }
 #headerHolder header .header {
-    display: inline;
+    margin: 0;
+    line-height: 1.8em
 }
 #headerHolder h1.header {
     font-size: 2rem;
 }
 #headerHolder h4.header {
-    position: relative;
-    top: 1em;
-    left: 2em;
+    float: right;
+    margin-right: 4em;
 }
 #footerHolder {
     height: 1em;
@@ -43,4 +44,27 @@
     margin-top: 1em;
     text-align: center;
     line-height: 3em;
+}
+#headerHolder .socialNetworking {
+    margin-right: 1em;
+}
+#headerHolder .socialNetworking a {
+    text-decoration: none;
+    width: 1.5em;
+    display: inline-block;
+}
+#headerHolder .socialNetworking a i:HOVER {
+    opacity: 1;
+}
+#headerHolder .socialNetworking .facebook {
+    color: #3b5998;
+}
+#headerHolder .socialNetworking .google {
+    color: #dd4b39;
+}
+#headerHolder .socialNetworking .linkedin {
+    color: #007bb6;
+}
+#headerHolder .socialNetworking .twitter {
+    color: #00aced;
 }

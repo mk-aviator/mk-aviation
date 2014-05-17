@@ -5,6 +5,13 @@
     MKA.viewClasses.HeaderView = MKA.viewClasses.AbstractView.extend({
         el: '#headerHolder',
         templateId: 'header-tmpl',
+        events: {
+            'click .logo': function () {
+                MKA.router.navigate('home', {
+                    trigger: true
+                });
+            }
+        },
         init: function () {
             this.render();
         }

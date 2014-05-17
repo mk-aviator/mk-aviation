@@ -1,0 +1,15 @@
+#descriptionHolder.aboutus{
+    margin: 2em;
+}
+#descriptionHolder.aboutus .ribbon.label{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#descriptionHolder.aboutus div p{
+    margin: 0;
+    line-height: 1.4em;
+}
+#descriptionHolder.aboutus div{
+    margin-bottom: 1em;
+}

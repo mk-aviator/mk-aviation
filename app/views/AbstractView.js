@@ -9,6 +9,8 @@
                 }
             },
             render: function (data) {
+                $('#menu .item.active').removeClass('active');
+                $('#'+this.name+'Option').addClass('active');
                 $('#descriptionBackground').removeClass().addClass(this.name);
                 this.$el.removeClass().addClass(this.name);
                 this.template(data || this.renderData);

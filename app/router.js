@@ -3,10 +3,18 @@
     MKA.routerClass = {
         MKARouter: Backbone.Router.extend({
             routes: {
+                '': 'renderDefault',
                 'home': 'renderHome',
                 'classes': 'renderClasses',
                 'salientfeatures': 'renderSalientFeatures',
-                'testimonials': 'renderTestimonials'
+                'testimonials': 'renderTestimonials',
+                'trackrecord': 'renderTrackRecord',
+                'aboutus': 'renderAboutUs'
+            },
+            renderDefault: function () {
+                MKA.router.navigate('home', {
+                    trigger: true
+                });
             },
             renderHome: function () {
                 MKA.views.home.render();
@@ -19,7 +27,13 @@
             },
             renderTestimonials: function () {
                 MKA.views.testimonials.render();
-            }
+            },
+            renderTrackRecord: function () {
+                MKA.views.trackrecord.render();
+            },
+            renderAboutUs: function () {
+                MKA.views.aboutus.render();
+            }   
         })
     };
 }(window.MKA, window.jQuery, window.Backbone));

@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="assets/css/home.css">
     <link rel="stylesheet" href="assets/css/salientfeatures.css">
     <link rel="stylesheet" href="assets/css/testimonials.css">
+    <link rel="stylesheet" href="assets/css/aboutus.css">
     <link rel="stylesheet" media="all" href="assets/css/grid-1378.css">
     <link rel="stylesheet" media="all and (min-width: 1248px) and (max-width: 1407px)" href="assets/css/grid-1218.css">
     <link rel="stylesheet" media="all and (min-width: 1002px) and (max-width: 1247px)" href="assets/css/grid-978.css">
@@ -48,6 +49,8 @@
     <script src="app/views/ClassesView.js"></script>
     <script src="app/views/SalientFeaturesView.js"></script>
     <script src="app/views/TestimonialsView.js"></script>
+    <script src="app/views/TrackRecordView.js"></script>
+    <script src="app/views/AboutUsView.js"></script>
     <script src="app/router.js"></script>
     <script>
         $(document).ready(function () {
@@ -81,9 +84,22 @@
     <div class = "logo floatLeft">
     </div>
     <header class="floatRight">
-        <h1 class="header">MK Aviation</h1 >
-        <h4 class = "header" > Dream high . . . </h4>
-        <h4 class="header">Fly higher . . .</h4 >
+        <div class="socialNetworking floatRight">
+            <a href="" target="_blank">
+                <i class="facebook large sign icon"></i>
+            </a>
+            <a href="">
+                <i class="google plus large sign icon"></i>
+            </a>
+            <a href="">
+                <i class="linkedin large sign icon"></i>
+            </a>
+            <a href="">
+                <i class="twitter large sign icon"></i>
+            </a>
+        </div>
+        <h1 class="header">MK Aviation</h1>
+        <h4 class = "header" > Dream high . . . Fly higher . . .</h4 >
     </header>
 </script>
 <script id="menu-tmpl" type="text/template">
@@ -100,11 +116,11 @@
         <a class="item" id="testimonialsOption">
             Testimonials
           </a>
-        <a class="item">
+        <a class="item" id="trackrecordOption">
              Track Record
           </a>
-        <a class="item">
-            <i class="phone icon"></i> Contact Us
+        <a class="item" id="aboutusOption">
+             About Us
         </a>
     </div>
 </script>
@@ -184,5 +200,24 @@ The training duration will be approximately 1.5 - 2 months of intensive coaching
     });
 %>
 </div>
+</script>
+<script id="aboutus-tmpl" type="text/template">
+<div class="ui black small ribbon label"><i class="building icon"></i> Contact us</div>
+<div>
+<p>L 24,</p>
+<p>Prime Mall,</p>
+<p>Church Road,</p>
+<p>Irla,</p>
+<p>Vile Parle (W),</p>
+<p>Mumbai-56.</p>
+</div>
+<div>
+<p><i class="mobile icon"></i> 9833 820 206</p>
+<p><i class="mobile icon"></i> 9421 412 229</p>
+<p><i class="mail icon"></i></p>
+</div>
+</script>
+<script id="trackrecord-tmpl" type="text/template">
+Work in progress.
 </script>
 </html>

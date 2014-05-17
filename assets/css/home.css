@@ -40,3 +40,23 @@
     overflow-y: auto;
     overflow-x: hidden;
 }
+#backgroundsHolder #descriptionBackground.aboutus {
+    height: 20em;
+}
+#descriptionHolder.aboutus {
+    margin-top: 1em;
+    padding: 2em;
+    height: 2em;
+    line-height: 2em;
+    text-align: justify;
+}
+#backgroundsHolder #descriptionBackground.trackrecord {
+    height: 20em;
+}
+#descriptionHolder.trackrecord {
+    margin-top: 1em;
+    padding: 2em;
+    height: 2em;
+    line-height: 2em;
+    text-align: justify;
+}

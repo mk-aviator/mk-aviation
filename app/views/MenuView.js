@@ -10,30 +10,32 @@
         },
         events: {
             'click #homeOption' : function (event) {
-                this.$('#menu .item.active').removeClass('active');
-                $(event.currentTarget).addClass('active');
                 MKA.router.navigate('home', {
                     trigger: true
                 });
             },
             'click #classesOption' : function (event) {
-                this.$('#menu .item.active').removeClass('active');
-                $(event.currentTarget).addClass('active');
                 MKA.router.navigate('classes', {
                     trigger: true
                 });
             },
             'click #salientfeaturesOption' : function (event) {
-                this.$('#menu .item.active').removeClass('active');
-                $(event.currentTarget).addClass('active');
                 MKA.router.navigate('salientfeatures', {
                     trigger: true
                 });
             },
             'click #testimonialsOption' : function (event) {
-                this.$('#menu .item.active').removeClass('active');
-                $(event.currentTarget).addClass('active');
                 MKA.router.navigate('testimonials', {
+                    trigger: true
+                });
+            },
+            'click #trackrecordOption': function (event) {
+                MKA.router.navigate('trackrecord', {
+                    trigger: true
+                });
+            },
+            'click #aboutusOption' : function (event) {
+                MKA.router.navigate('aboutus', {
                     trigger: true
                 });
             }

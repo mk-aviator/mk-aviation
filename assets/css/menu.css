@@ -1,5 +1,6 @@
 #menuHolder .menu {
     margin: 0 .5em 0 0;
+    border-radius: 0;
 }
 #menuHolder,
 #menuHolder header {
@@ -7,4 +8,7 @@
 }
 #menuHolder .ui.inverted.teal.menu {
     background-color: #1F4E79;
+}
+#menuHolder .ui.inverted.menu .active.item{
+    background-color: #062d50;
 }
