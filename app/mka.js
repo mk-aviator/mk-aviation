@@ -10,7 +10,8 @@
             salientfeatures: new this.viewClasses.SalientFeaturesView(),
             testimonials: new this.viewClasses.TestimonialsView(),
             trackrecord: new this.viewClasses.TrackRecordView(),
-            aboutus: new this.viewClasses.AboutUsView()
+            aboutus: new this.viewClasses.AboutUsView(),
+            admissionform: new this.viewClasses.AdmisssionFormView()
         };
         this.router = new this.routerClass.MKARouter();
         Backbone.history.start();

@@ -9,7 +9,8 @@
                 'salientfeatures': 'renderSalientFeatures',
                 'testimonials': 'renderTestimonials',
                 'trackrecord': 'renderTrackRecord',
-                'aboutus': 'renderAboutUs'
+                'aboutus': 'renderAboutUs',
+                'admissionform': 'renderAdmissionForm'
             },
             renderDefault: function () {
                 MKA.router.navigate('home', {
@@ -33,7 +34,10 @@
             },
             renderAboutUs: function () {
                 MKA.views.aboutus.render();
-            }   
+            },
+            renderAdmissionForm: function () {
+                MKA.views.admissionform.render();
+            }
         })
     };
 }(window.MKA, window.jQuery, window.Backbone));

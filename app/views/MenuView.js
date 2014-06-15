@@ -38,6 +38,11 @@
                 MKA.router.navigate('aboutus', {
                     trigger: true
                 });
+            },
+            'click #admissionformOption' : function (event) {
+                MKA.router.navigate('admissionform', {
+                    trigger: true
+                });
             }
         }
     });

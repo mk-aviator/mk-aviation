@@ -51,12 +51,23 @@
     text-align: justify;
 }
 #backgroundsHolder #descriptionBackground.trackrecord {
-    height: 20em;
+    height: 30em;
 }
 #descriptionHolder.trackrecord {
+    margin-top: 1.5em;
+    padding: 2em;
+    height: 25em;
+    line-height: 2em;
+    text-align: justify;
+    overflow-y: auto;
+}
+#backgroundsHolder #descriptionBackground.admissionform {
+    height: 71em;
+}
+#descriptionHolder.admissionform {
     margin-top: 1em;
     padding: 2em;
-    height: 2em;
+    height: 56em;
     line-height: 2em;
     text-align: justify;
 }

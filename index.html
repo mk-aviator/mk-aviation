@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
-
+<!--test-->
 <head>
     <meta name="description" content="MK Aviation conducts ground subject coaching classes for CPL and CPL conversion.">
 
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="initial-scale=1" />
     <title>MK Aviation</title>
-
+    <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png"/>
     <link rel="stylesheet" href="assets/css/semantic.min.css">
     <link rel="stylesheet" href="assets/css/icon.min.css">
     <link rel="stylesheet" href="assets/css/utility.css">
@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="assets/css/salientfeatures.css">
     <link rel="stylesheet" href="assets/css/testimonials.css">
     <link rel="stylesheet" href="assets/css/aboutus.css">
+    <link rel="stylesheet" href="assets/css/trackrecord.css">
     <link rel="stylesheet" media="all" href="assets/css/grid-1378.css">
     <link rel="stylesheet" media="all and (min-width: 1248px) and (max-width: 1407px)" href="assets/css/grid-1218.css">
     <link rel="stylesheet" media="all and (min-width: 1002px) and (max-width: 1247px)" href="assets/css/grid-978.css">
@@ -51,6 +52,7 @@
     <script src="app/views/TestimonialsView.js"></script>
     <script src="app/views/TrackRecordView.js"></script>
     <script src="app/views/AboutUsView.js"></script>
+    <script src="app/views/AdmissionFormView.js"></script>
     <script src="app/router.js"></script>
     <script>
         $(document).ready(function () {
@@ -85,16 +87,16 @@
     </div>
     <header class="floatRight">
         <div class="socialNetworking floatRight">
-            <a href="" target="_blank">
+            <a href="https://www.facebook.com/MKAviation10" target="_blank">
                 <i class="facebook large sign icon"></i>
             </a>
-            <a href="">
+            <a href="https://www.google.com/+MANGESHKASODEKAR" target="_blank">
                 <i class="google plus large sign icon"></i>
             </a>
-            <a href="">
+            <a href="http://in.linkedin.com/pub/mangesh-kasodekar/55/546/388" target="_blank">
                 <i class="linkedin large sign icon"></i>
             </a>
-            <a href="">
+            <a href="https://twitter.com/Mangeshrk10" target="_blank">
                 <i class="twitter large sign icon"></i>
             </a>
         </div>
@@ -108,7 +110,7 @@
             <i class="home icon"></i>
         </a>
         <a class="item" id="classesOption">
-            <i class="book icon"></i> Classes
+            Classes
         </a>
         <a class="item" id="salientfeaturesOption">
              Salient Features
@@ -121,6 +123,9 @@
           </a>
         <a class="item" id="aboutusOption">
              About Us
+        </a>
+        <a class="item" id="admissionformOption">
+             Form
         </a>
     </div>
 </script>
@@ -214,10 +219,26 @@ The training duration will be approximately 1.5 - 2 months of intensive coaching
 <div>
 <p><i class="mobile icon"></i> 9833 820 206</p>
 <p><i class="mobile icon"></i> 9421 412 229</p>
-<p><i class="mail icon"></i></p>
+<p><i class="mail icon"></i> maka.aviator@gmail.com</p>
 </div>
 </script>
 <script id="trackrecord-tmpl" type="text/template">
-Work in progress.
+<table class="ui table two column small">
+  <tbody>
+  <%
+    _.each(trackRecords, function (trackRecord) {
+  %>
+    <tr>
+      <td><%=trackRecord.name%></td>
+      <td><%=trackRecord.subject%></td>
+    </tr>
+  <%
+    });
+  %>
+  </tbody>
+</table>
+</script>
+<script id="admissionform-tmpl" type="text/template">
+<iframe src="https://docs.google.com/forms/d/1AHjVEs747uOQAW0Wj4YOjbfWIr6xU4hyDi9l0H1wZ5c/viewform?embedded=true" width="650" height="1240" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 </script>
 </html>
