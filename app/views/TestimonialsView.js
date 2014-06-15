@@ -16,7 +16,7 @@
                 description: 'A very good class for navigation plus the tutor is friendly which helps become comfortable while studying adding to this, study material is very precisely made for DGCA exam.',
                 stars: 4
             }, {
-                name: 'Dama Parikh (CPL)',
+                name: 'Milana Dsouza',
                 description: 'Mangesh Sir\'s classes not only cleared my Navigation exam in first attempt but also gave me knowledge beyond what is written in books! Besides this, Sir is very patient, dedicated and he keeps explaining a particular topic until its fully understood. Mangesh Sir is more than anything a friend to his students so learning is not stressful . . . its easy!',
                 stars: 4
             }]
