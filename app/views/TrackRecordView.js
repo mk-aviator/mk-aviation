@@ -79,6 +79,9 @@
             }, {
                     name: 'AKANSHA SHARMA',
                     subject: 'NAVIGATION'
+            }, {
+                    name: 'SHRIYANSH TALEKAR',
+                    subject: 'NAVIGATION'
             }]
         }
     });
